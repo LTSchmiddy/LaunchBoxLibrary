@@ -1,0 +1,9 @@
+# Folders
+/.vscode/
+**/venv/
+**/__pycache__/
+**/.rm_PyPluginSp_logs/
+
+# Files
+**/OFFdebug.txt
+**/debug.txt
