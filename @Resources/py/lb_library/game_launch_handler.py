@@ -14,6 +14,8 @@ def handle_game_launch(game: ET.Element):
         if i.check():
             print(f"Using launcher: '{type(i).__name__}'...")
             i.launch()
-            break
+            return
+        
+    print(f"ERROR: Unsure how to launch '{game.find('Title').text}'. No launch handler identified...")
 
 
